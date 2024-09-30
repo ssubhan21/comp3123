@@ -15,12 +15,10 @@ function getEmployeeById(id) {
     return employees.find(employee => employee.id === id);
 }
 
-// Function to add a new employee
 function addEmployee(employee) {
     employees.push(employee);
 }
 
-// Function to update an employee's information
 function updateEmployee(id, updatedInfo) {
     const index = employees.findIndex(employee => employee.id === id);
     if (index !== -1) {
@@ -28,12 +26,10 @@ function updateEmployee(id, updatedInfo) {
     }
 }
 
-// Function to remove an employee
 function removeEmployee(id) {
     employees = employees.filter(employee => employee.id !== id);
 }
 
-// Exporting functions
 module.exports = {
     getAllEmployees,
     getEmployeeById,
