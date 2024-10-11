@@ -16,7 +16,7 @@ npm install
 node server.js
 ```
 
-You can browse the apis at [http://localhost:8081](http://localhost:8081)
+You can browse the apis at [http://localhost:8081](http://localhost:3000)
 
 ## Instruction
 
